@@ -60,7 +60,7 @@ h2 {
 
 h4 {
   text-align: center;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 p {
@@ -90,8 +90,8 @@ p {
 }
 
 .content {
-  padding: 100px;
   display: flex;
+  padding-top: 100px;
   align-content: center;
   flex-direction: column;
   justify-content: space-between;
@@ -105,9 +105,10 @@ p {
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 100px;
+  height: 80px;
   flex-flow: column;
   padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0 auto;
 }
 
@@ -124,7 +125,7 @@ p {
   width: 1200px;
   height: 800px;
   justify-content: center;
-  align-content: center;
+  align-content: space-around;
   margin: 0 auto;
 }
 
@@ -200,4 +201,23 @@ p {
   align-items: center;
   background-color: black;
   opacity: 1;
+}
+
+.footer {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+h5 {
+  text-align: center;
+}
+
+.copyright p {
+  text-align: left;
+  padding-left: 20px;
 }
