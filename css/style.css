@@ -119,19 +119,6 @@ p {
   width: 1000px;
 }
 
-.caption {
-  text-align: center;
-  display: flex;
-  color: seashell;
-  font-size: 22px;
-  font-weight: bold;
-  width: 300px;
-  height: 20px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
 .tea {
   display: flex;
   flex-wrap: wrap;
